@@ -1,0 +1,26 @@
+{
+  "name": "pretty_husky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "pretty": "prettier --single-quote --write --tab-width 4 \"src/**/*.{js,jsx}\"",
+    "precommit": "npm run pretty && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartw/pretty_husky.git"
+  },
+  "author": "Bart Wijnants",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bartw/pretty_husky/issues"
+  },
+  "homepage": "https://github.com/bartw/pretty_husky#readme",
+  "devDependencies": {
+    "husky": "^0.13.4",
+    "jest": "^20.0.4",
+    "prettier": "^1.4.4"
+  }
+}
