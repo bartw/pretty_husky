@@ -2,7 +2,7 @@
 
 ## Description
 
-Using Prettier and husky to make your js commits save.
+Using Prettier and husky to make your js commits safe.
 
 ## Quickstart
 
