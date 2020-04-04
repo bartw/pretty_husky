@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "pretty": "prettier --write --tab-width 4 \"src/**/*.js\"",
-    "precommit": "lint-staged && npm test"
+    "pretty": "prettier --write --tab-width 4 \"src/**/*.js\""
   },
   "lint-staged": {
     "*.js": [
@@ -29,5 +28,10 @@
     "jest": "^25.2.7",
     "lint-staged": "^10.1.1",
     "prettier": "^2.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && npm test"
+    }
   }
 }
