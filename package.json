@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/bartw/pretty_husky#readme",
   "devDependencies": {
-    "husky": "^0.13.4",
-    "jest": "^20.0.4",
-    "lint-staged": "^3.6.1",
-    "prettier": "^1.4.4"
+    "husky": "^4.2.3",
+    "jest": "^25.2.7",
+    "lint-staged": "^10.1.1",
+    "prettier": "^2.0.2"
   }
 }
